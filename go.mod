@@ -53,7 +53,7 @@ replace (
 	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
 	github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.10.0
 	golang.org/x/text => golang.org/x/text v0.3.3 // Required to fix CVE-2020-14040
-
+	github.com/operator-framework/operator-registry => github.com/omertuc/operator-registry v1.17.99
 )
 
 exclude github.com/spf13/viper v1.3.2 // Required to fix CVE-2018-1098
